@@ -2,7 +2,8 @@ import random
 
 def hangman():
     print ('Привет! Добро пожаловать в игру Виселица')
-    wordlist = ['мандарин', 'яблоко', 'груша', 'виноград', 'апельсин', 'манго']
+    print ('Угадайте игру')
+    wordlist = ['футбол', 'хоккей', 'теннис', 'баскетбол']
     secret = random.choice(wordlist)
     guesses = 'ауоыиэяюеё'
     turns = 5
